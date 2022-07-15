@@ -1,0 +1,184 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.bold {
+    font-weight: 1000px;
+    font-size: 80px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+
+.background-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.699)), url(images/donation12.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 1200px;
+    height: 600px;
+    padding: 50px 50px;
+    margin-left: 20px;
+    margin-right: 10px;
+    text-align: center;
+    box-shadow: 20px 15px 10px lightblue;
+    border-radius: 20px 20px;
+}
+
+.orange-color {
+    text-shadow: 2px 2px 5px red;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, red);
+    border-radius: 10px 10px;
+    padding: 20px 20px;
+    font-weight: 800px;
+    color: white;
+    width: 1000px;
+    height: 700px;
+    text-align: center;
+}
+
+.distance {
+    margin-top: 50px;
+    display: table-row;
+}
+
+.text {
+    text-align: center;
+    font-weight: 1000px;
+    font-size: 70px;
+
+}
+
+.tk-button {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.text-button {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 18%;
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+
+#unique {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 18%;
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+}
+
+#underline {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    padding-left: 210px;
+    padding-right: 210px;
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+
+
+#new {
+
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#donate {
+
+    text-align: center;
+    margin-top: 100px;
+}
+
+#para {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.flexible-container {
+
+    display: flex;
+}
+
+.half-width {
+
+    width: 33%;
+    height: 300px;
+    box-shadow: 10px 10px 30px red;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100px;
+
+}
+
+#food {
+    background-color: aqua;
+    background-image: url(icons/food.png);
+    background-repeat: no-repeat;
+    background-position: left 50px;
+}
+
+#shelter {
+    background-color: yellow;
+    background-image: url(icons/Frame-1.png);
+    background-repeat: no-repeat;
+    background-position: left 50px;
+}
+
+#education {
+    background-color: wheat;
+    background-image: url(icons/shelter.png);
+    background-repeat: no-repeat;
+    background-position: left 50px;
+}
+
+.new {
+
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.middle {
+
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.middle img {
+    width: 100%;
+    border-radius: 15px;
+}
